@@ -23,18 +23,18 @@ const Lancamentos = () => {
 
   return (
     <section id="lancamentos-container">
-      <h1>APROVEITE OS LANÇAMENTOS</h1>
+      <h1>APROVEITE OS LANÇAMEdddNTOS</h1>
 
       <div className="conteudo-principal">
         <div className="miniaturas">
           <div className="miniatura-item">
-            <img src="src\assets\images\batom1.png" alt="Miniatura do Batom" />
+            <img src="/src\assets\images\batom1.png" alt="Miniatura do Batom" />
           </div>
           <div className="miniatura-item">
-            <img src="src\assets\images\batom2.png" alt="Miniatura do Batom" />
+            <img src="/src\assets\images\batom2.png" alt="Miniatura do Batom" />
           </div>
           <div className="miniatura-item">
-            <img src="src\assets\images\batom3.png" alt="Miniatura do Batom" />
+            <img src="/src\assets\images\batom3.png" alt="Miniatura do Batom" />
           </div>
         </div>
 
