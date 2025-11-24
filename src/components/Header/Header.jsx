@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
-import "/src/assets/images/passoia_logo.png";
+import logoImage from "../assets/images/passoia_logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,11 +15,7 @@ const Header = () => {
   return (
     <header>
       <nav className="navbar">
-        <img
-          src="/src/assets/images/passoia_logo.png"
-          alt="Logo da página"
-          className="logo"
-        />
+        <img src={logoImage} alt="Logo da página" className="logo" />
 
         <button onClick={toggleMenu} className="btn btn-mobile">
           <i className={`fa-solid ${iconClass}`}></i>

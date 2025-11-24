@@ -1,14 +1,10 @@
 import "./HomeSection.css";
-import "/src/assets/images/Banner.png";
+import bannerImage from "../assets/images/passoia_logo.png";
 
 const HomeSection = () => {
   return (
     <section id="home-container">
-      <img
-        src="/src/assets/images/Banner.png"
-        alt="Banner da página"
-        className="home-image"
-      />
+      <img src={bannerImage} alt="Banner da página" className="home-image" />
     </section>
   );
 };
