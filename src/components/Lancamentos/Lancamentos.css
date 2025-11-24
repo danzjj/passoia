@@ -1,0 +1,74 @@
+#lancamentos-container {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#lancamentos-container h1 {
+  margin-bottom: 40px;
+  font-size: 2.2em;
+}
+
+.conteudo-principal {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.miniaturas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.miniatura-item img {
+  width: 70px;
+  height: auto;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.imagem-modelo img {
+  max-width: 350px;
+  height: auto;
+  display: block;
+}
+
+.descricao-produto {
+  text-align: left;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.avaliacao .fa-star {
+  color: #ffc107;
+}
+
+.paleta-cores {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 20px;
+}
+
+.paleta-cores .cor {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #00000020;
+}
+
+.roxo-claro {
+  background-color: #b39ddb;
+}
+.vermelho {
+  background-color: #f44336;
+}
+.vinho {
+  background-color: #880e4f;
+}
+.coral {
+  background-color: #ff8a65;
+}
