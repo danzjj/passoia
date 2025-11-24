@@ -28,13 +28,13 @@ const Lancamentos = () => {
       <div className="conteudo-principal">
         <div className="miniaturas">
           <div className="miniatura-item">
-            <img src="/src/assets/images/batom1.png" alt="Miniatura do Batom" />
+            <img src="/assets/images/batom1.png" alt="Miniatura do Batom" />
           </div>
           <div className="miniatura-item">
-            <img src="/src/assets/images/batom2.png" alt="Miniatura do Batom" />
+            <img src="/assets/images/batom2.png" alt="Miniatura do Batom" />
           </div>
           <div className="miniatura-item">
-            <img src="/src/assets/images/batom3.png" alt="Miniatura do Batom" />
+            <img src="/assets/images/batom3.png" alt="Miniatura do Batom" />
           </div>
         </div>
 
