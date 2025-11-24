@@ -15,7 +15,7 @@ const Header = () => {
     <header>
       <nav className="navbar">
         <img
-          src="../src\assets\images\passoia_logo.png"
+          src="../src/assets/images/passoia_logo.png"
           alt="Logo da página"
           className="logo"
         />
