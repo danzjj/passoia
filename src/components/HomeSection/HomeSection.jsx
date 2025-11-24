@@ -1,5 +1,5 @@
 import "./HomeSection.css";
-import bannerImage from "../assets/images/passoia_logo.png";
+import bannerImage from "../../assets/images/Banner.png";
 
 const HomeSection = () => {
   return (
