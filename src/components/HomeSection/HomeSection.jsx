@@ -1,4 +1,5 @@
 import "./HomeSection.css";
+import "/src/assets/images/Banner.png";
 
 const HomeSection = () => {
   return (

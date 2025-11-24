@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "./Lancamentos.css";
+import "/src/assets/images/batom1.png";
+import "/src/assets/images/batom2.png";
+import "/src/assets/images/batom3.png";
 
 import modeloRoxo from "/src/assets/images/batom_azul.png";
 import modeloVermelho from "/src/assets/images/batom_vermelho.png";

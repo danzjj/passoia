@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
+import "/src/assets/images/passoia_logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ const Header = () => {
     <header>
       <nav className="navbar">
         <img
-          src="../src/assets/images/passoia_logo.png"
+          src="/src/assets/images/passoia_logo.png"
           alt="Logo da página"
           className="logo"
         />
