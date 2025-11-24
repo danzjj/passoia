@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "./Lancamentos.css";
-import "/src/assets/images/batom1.png";
-import "/src/assets/images/batom2.png";
-import "/src/assets/images/batom3.png";
+import batomMiniatura1 from "../../assets/images/batom1.png";
+import batomMiniatura2 from "../../assets/images/batom2.png";
+import batomMiniatura3 from "../../assets/images/batom3.png";
 
-import modeloRoxo from "/src/assets/images/batom_azul.png";
-import modeloVermelho from "/src/assets/images/batom_vermelho.png";
-import modeloVinho from "/src/assets/images/batom_marrom.png";
-import modeloCoral from "/src/assets/images/batom_base.png";
+import modeloRoxo from "../../assets/images/batom_azul.png";
+import modeloVermelho from "../../assets/images/batom_vermelho.png";
+import modeloVinho from "../../assets/images/batom_marrom.png";
+import modeloCoral from "../../assets/images/batom_base.png";
+
 const IMAGENS_POR_COR = {
   "roxo-claro": modeloRoxo,
   vermelho: modeloVermelho,
@@ -31,13 +32,13 @@ const Lancamentos = () => {
       <div className="conteudo-principal">
         <div className="miniaturas">
           <div className="miniatura-item">
-            <img src="src\assets\images\batom1.png" alt="Miniatura do Batom" />
+            <img src={batomMiniatura1} alt="Miniatura do Batom" />
           </div>
           <div className="miniatura-item">
-            <img src="src\assets\images\batom2.png" alt="Miniatura do Batom" />
+            <img src={batomMiniatura2} alt="Miniatura do Batom" />
           </div>
           <div className="miniatura-item">
-            <img src="src\assets\images\batom3.png" alt="Miniatura do Batom" />
+            <img src={batomMiniatura3} alt="Miniatura do Batom" />
           </div>
         </div>
 
